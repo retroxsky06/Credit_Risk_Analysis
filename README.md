@@ -18,34 +18,44 @@ The purpose of this project is to analyze credit card risk by employing six diff
 
 
 ## Results
-There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models 
+The following results are the resampling models that have been applied in this project: There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models 
 
 ### Resampling Models
-1. Oversampling: Naive Random Sampling
+- Oversampling: Naive Random Sampling
 
   - Balanced Accuracy Score:
+  - Precision
+  - Recall
 
 
-2. Oversampling: SMOTE Oversamling
+- Oversampling: SMOTE Oversamling
+  - Balanced Accuracy Score:
+  - Precision
+  - Recall
 
 
 
 
-3. Undersampling: Cluster Centroids
+- Undersampling: Cluster Centroids
+  - Balanced Accuracy Score:
+  - Precision
+  - Recall
 
 
 
-4. Combination of Over and Under Sampling
-
+- Combination of Over and Under Sampling
+  - Balanced Accuracy Score:
+  - Precision
+  - Recall
 
 
 ### SMOTEEN Algorithm
-5. Balanced Random Forest Classifier
+- Balanced Random Forest Classifier
 
 
 
 ### Ensemble Classifiers
-6. Easy Ensemble AdaBoost Classifier
+- Easy Ensemble AdaBoost Classifier
 
 
 
