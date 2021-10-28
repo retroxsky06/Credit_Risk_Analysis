@@ -4,17 +4,12 @@ Module 17 Challenge
 ## Project Overview
 The purpose of this project is to analyze credit card risk by employing six different techniques to train and evaluate models with unbalanced classes.  The models are evaluated and a recommendation based on the results on which model that best predicts credit card risk  is provided.
 
-#### Technical Analysis Deliverables
-- Deliverable 1: Use Resampling Models to Predict Credit Risk
-- Deliverable 2: Use the SMOTEENN Algorithm to Predict Credit Risk
-- Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
-
 ### Software & Resources
 -	Python
 -	Jupyter Notebook
 -	Scikit-learn library
 -	Imbalance-learn library
--	Dataset: [LoanStats_2019.csv]()
+-	Dataset: [LoanStats_2019.csv](https://github.com/retroxsky06/Credit_Risk_Analysis/blob/main/LoanStats_2019Q1.csv.zip)
 
 ## Results
 The following results are the resampling models that have been applied in this project: 
