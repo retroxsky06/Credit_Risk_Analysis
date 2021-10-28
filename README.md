@@ -16,53 +16,58 @@ The purpose of this project is to analyze credit card risk by employing six diff
 -	Imbalance-learn library
 -	Dataset: [LoanStats_2019.csv]()
 
-
 ## Results
-The following results are the resampling models that have been applied in this project: There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models 
+The following results are the resampling models that have been applied in this project: 
 
 ### Resampling Models
-#### - Oversampling: Naive Random Sampling
+#### Oversampling: Naive Random Sampling
+
+![fig1](https://github.com/retroxsky06/Credit_Risk_Analysis/blob/main/images/naive_random.png)
+
+  - Balanced Accuracy Score:
+  - Precision
+  - Recall
+
+#### Oversampling: SMOTE Oversampling
+
+![fig2](https://github.com/retroxsky06/Credit_Risk_Analysis/blob/main/images/smote_oversampling.png)
 
   - Balanced Accuracy Score:
   - Precision
   - Recall
 
 
-#### - Oversampling: SMOTE Oversamling
+#### Undersampling: Cluster Centroids
+
+![fig3](https://github.com/retroxsky06/Credit_Risk_Analysis/blob/main/images/cluster_centroids.png
+)
   - Balanced Accuracy Score:
   - Precision
   - Recall
 
+#### Combination (Over & Under) Sampling
 
+![fig4](https://github.com/retroxsky06/Credit_Risk_Analysis/blob/main/images/combo_sampling.png)
 
-
-#### - Undersampling: Cluster Centroids
-  - Balanced Accuracy Score:
-  - Precision
-  - Recall
-
-
-
-#### - Combination of Over and Under Sampling
   - Balanced Accuracy Score:
   - Precision
   - Recall
 
 
 ### SMOTEEN Algorithm
-#### - Balanced Random Forest Classifier
+#### Balanced Random Forest Classifier
+![fig5](https://github.com/retroxsky06/Credit_Risk_Analysis/blob/main/images/brfc.png)
   - Balanced Accuracy Score:
   - Precision
   - Recall
-
-
 
 ### Ensemble Classifiers
-#### - Easy Ensemble AdaBoost Classifier
+#### Easy Ensemble AdaBoost Classifier
+![fig6](https://github.com/retroxsky06/Credit_Risk_Analysis/blob/main/images/eea_classifier.png)
+
   - Balanced Accuracy Score:
   - Precision
   - Recall
-
 
 
 ## Summary
