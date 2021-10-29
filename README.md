@@ -1,5 +1,4 @@
 # Credit Risk Analysis
-Module 17 Challenge
 
 ## Project Overview
 The purpose of this project is to analyze credit card risk by employing six different techniques to train and evaluate models with unbalanced classes.  The models are evaluated and a recommendation based on the results on which model that best predicts credit card risk  is provided.
@@ -91,7 +90,9 @@ In random sampling,
     - high risk: 0.92
     - low risk: 0.94
 
-
 ## Summary
-There is a summary of the results (2 pt)
-There is a recommendation on which model to use, or there is no recommendation with a justification
+Based on the results, it is observed that the accuracy percentages range between 54% to 93% among the six algorithms.  The first four methods are rated as “fair” as their accuracy scores range between 54% to 66%.  Additionally, all four methods have a high-risk precision score of 0.01 and a low-risk precision score of 1.00.  The 0.01 high risk precision score is rated as low, indicating that the models are not reliable for positive classifications (there may be a significant number of false positives). On the other hand, the precision of low-risk loans for all four models have a 1.00 score, signifying high reliability.
+
+Reviewing the last two models, the balance accuracy score for the Balanced Random Forest Classifier is 78%, while the Easy Ensemble AdaBoost Classifier is 93%. Both models have higher precision and recall scores than the initial four models, indicating that these models have a higher rate of predicting credit card risk correctly.
+
+Based on the performance of these six techniques, the recommended model that will best predict credit card risk is **Easy Ensemble AdaBoost Classifier**.  Of all the models, the Easy Ensemble AdaBoost Classifier has the highest precision, recall, and F1 scores.
