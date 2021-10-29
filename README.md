@@ -15,7 +15,6 @@ The following results are the resampling models that have been applied in this p
 
 ### Resampling Models
 #### Oversampling: Naive Random Sampling
-In random sampling, 
 
 ![fig1](https://github.com/retroxsky06/Credit_Risk_Analysis/blob/main/images/naive_random.png)
 
